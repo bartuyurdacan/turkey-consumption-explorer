@@ -13,8 +13,16 @@ library(stringi)
 library(openxlsx)
 library(shinyWidgets)
 
-# 1) Load & clean data
-load("C:/Users/bartu/Desktop/consumption-map-app/data.rda")  # expects `data` object
+# 1) Build the “raw” URL to your data.rda on GitHub
+data_url <- "https://raw.githubusercontent.com/bartuyurdacan/turkey-consumption-explorer/main/data.rda"
+
+# 2) Download into a temp file
+tmp <- tempfile(fileext = ".rda")
+download.file(data_url, tmp, mode = "wb")
+
+# 3) Load it
+load(tmp)
+# expects `data` object
 if (nrow(data) >= 487) data <- data[-487, ]
 
 # 2) Prepare spatial data with recoded province names
