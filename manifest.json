@@ -16,11 +16,6 @@
     "openxlsx",
     "shinyWidgets"
   ],
-  "ContentCategory": "app",
-  "appPrimaryDoc": "consumption_map.R",
-  "Files": [
-    "consumption_map.R",
-    "data.rda",
-    "manifest.json"
-  ]
+  "contentCategory": "app",
+  "appPrimaryDoc": "consumption_map.R"
 }
