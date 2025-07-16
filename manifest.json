@@ -1,25 +1,4 @@
 {
-<<<<<<< HEAD
-  "R": {
-    "Version": "4.5.0"
-  },
-  "Packages": [
-    "shiny",
-    "bslib",
-    "sf",
-    "dplyr",
-    "leaflet",
-    "ggplot2",
-    "rnaturalearth",
-    "rnaturalearthdata",
-    "scales",
-    "stringi",
-    "openxlsx",
-    "shinyWidgets"
-  ],
-  "contentCategory": "app",
-  "appPrimaryDoc": "consumption_map.R"
-=======
   "version": 1,
   "locale": "en_US",
   "platform": "4.5.0",
@@ -2587,5 +2566,4 @@
     }
   },
   "users": null
->>>>>>> 35d160e (Auto‑generate manifest.json via rsconnect::writeManifest)
 }
