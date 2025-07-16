@@ -1,5 +1,7 @@
 # app.R
-library(devtools)
+  if (requireNamespace("devtools", quietly = TRUE)) {
+     library(devtools)
+  }
 devtools::install_github("ropensci/rnaturalearthhires")
 library(shiny)
 library(bslib)
