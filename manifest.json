@@ -1,26 +1,26 @@
 {
-"R": {
-"Version": "4.5.0"
-},
-"Packages": {
-"shiny": null,
-"bslib": null,
-"sf": null,
-"dplyr": null,
-"leaflet": null,
-"ggplot2": null,
-"rnaturalearth": null,
-"rnaturalearthdata": null,
-"scales": null,
-"stringi": null,
-"openxlsx": null,
-"shinyWidgets": null
-},
-"ContentCategory": "app",
-"appPrimaryDoc": "consumption_map.R",
-"Files": [
-"consumption_map.R",
-"data.rda",
-"manifest.json"
-]
+  "R": {
+    "Version": "4.5.0"
+  },
+  "Packages": [
+    "shiny",
+    "bslib",
+    "sf",
+    "dplyr",
+    "leaflet",
+    "ggplot2",
+    "rnaturalearth",
+    "rnaturalearthdata",
+    "scales",
+    "stringi",
+    "openxlsx",
+    "shinyWidgets"
+  ],
+  "ContentCategory": "app",
+  "appPrimaryDoc": "consumption_map.R",
+  "Files": [
+    "consumption_map.R",
+    "data.rda",
+    "manifest.json"
+  ]
 }
