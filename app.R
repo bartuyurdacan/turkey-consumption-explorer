@@ -1,7 +1,7 @@
 # app.R
+library(devtools)
 devtools::install_github("ropensci/rnaturalearthhires")
 library(shiny)
-library(devtools)
 library(bslib)
 library(sf)
 library(dplyr)
