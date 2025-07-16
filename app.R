@@ -1,5 +1,5 @@
 # app.R
-
+devtools::install_github("ropensci/rnaturalearthhires")
 library(shiny)
 library(bslib)
 library(sf)
