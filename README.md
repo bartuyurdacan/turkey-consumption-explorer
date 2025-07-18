@@ -1,4 +1,3 @@
-@"
 # Turkey Billed Consumption Explorer
 
 Interactive Shiny app visualizing billed electricity consumption by province & consumer type.  
